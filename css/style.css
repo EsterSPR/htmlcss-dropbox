@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -7,18 +7,20 @@
     font-family: 'Lato', sans-serif;
 }
 
-header {
+/*nav*/
+
+nav {
     display: flex;
     width: 100vw;
 }
 
-#header-content-left {
+#nav-content-left {
     width: 50vw;
     align-items: center;
     display: flex;
 }
 
-#header-content-right {
+#nav-content-right {
     width: 50vw;
     justify-content: right;
     align-items: center;
@@ -29,9 +31,57 @@ header {
     margin: 25px 15px;
 }
 
-#blue-btn {
+#nav-btn {
     text-decoration: none;
     background-color: #0161FF;
     padding: 5px 15px;
     color: #fff;
+}
+
+/*header*/
+
+header {
+    background-color: #B4D0E7;
+    padding: 60px 17vw 10px 17vw;
+}
+
+#header-row {
+    display: flex;
+    position: relative;
+}
+
+h1 {
+    font-size: 50pt;
+    font-weight: 900;
+    margin-bottom: 35px;
+}
+
+#header-text {
+    width: 34%;
+}
+
+#header-p1 {
+    margin-bottom: 35px;
+}
+
+#header-btn {
+    text-decoration: none;
+    background-color: #0161FF;
+    padding: 10px 25px;
+    color: #fff;
+}
+
+#header-p2 {
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+.fa-arrow-down {
+    font-size: 30pt;
+}
+
+img[alt="header-img"] {
+    width: 67%;
+    position: absolute;
+    right: 0;
 }
