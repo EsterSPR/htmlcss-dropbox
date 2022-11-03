@@ -31,6 +31,10 @@ nav {
     margin: 25px 15px;
 }
 
+.menu-item > img {
+    width: 130px;
+}
+
 #nav-btn {
     text-decoration: none;
     background-color: #0161FF;
