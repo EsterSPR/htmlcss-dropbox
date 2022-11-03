@@ -199,8 +199,7 @@ input {
     border: 1px solid lightgray;
 }
 
-.grey-team {
-    color: grey;
+.p-team {
     margin-top: 40px;
 }
 
@@ -221,4 +220,62 @@ input {
     position: absolute;
     right: 30px;
     top: 40px;
+}
+
+/*section 2 - partners*/
+
+#partner-container {
+    width: 100%;
+    display: flex;
+}
+
+img {
+ width: 55%;
+}
+
+#partner-text {
+    padding: 40px;
+}
+
+#partner-text > p {
+    margin: 20px auto 40px auto;
+}
+
+#partner-btn {
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #000;
+    color: #000;
+}
+
+/*section 2 - partners*/
+
+#business-container {
+    width: 100%;
+}
+
+#business-container > h1 {
+    margin-bottom: 50px;
+}
+
+.business-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.business-col {
+    width: 31%;
+}
+
+.business-col > h2 {
+    margin: 20px auto;
+}
+
+.business-img {
+    width: 100%;
+}
+
+#business-title-container > h1 {
+    margin: 150px auto 50px auto;
 }
