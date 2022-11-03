@@ -131,6 +131,10 @@ input {
     padding: 10px;
 }
 
+.plan-kind > i {
+    margin-right: 5px;
+}
+
 .under-kind {
     border: none;
     height: 1px;
@@ -187,4 +191,34 @@ input {
 
 .fa-check {
     color: #0161FF;
+}
+
+.plan-enterprise {
+    width: 100%;
+    height: auto;
+    border: 1px solid lightgray;
+}
+
+.grey-team {
+    color: grey;
+    margin-top: 40px;
+}
+
+#enterprise-content {
+    display: flex;
+}
+
+#enterprise-left {
+    width: 70%;
+}
+
+#enterprise-right {
+    width: 30%;
+    position: relative;
+}
+
+#enterprise-right > a {
+    position: absolute;
+    right: 30px;
+    top: 40px;
 }
