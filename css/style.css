@@ -50,7 +50,7 @@ header {
     position: relative;
 }
 
-h1 {
+header > h1 {
     font-size: 50pt;
     font-weight: 900;
     margin-bottom: 35px;
@@ -84,4 +84,107 @@ img[alt="header-img"] {
     width: 67%;
     position: absolute;
     right: 0;
+}
+
+/*main*/
+
+.main-margin {
+    margin: 100px 20vw;
+}
+
+.main-margin h1 {
+    font-size: 25pt;
+    font-weight: 900;
+}
+
+input {
+    margin-top: 50px;
+}
+
+#radio {
+    margin-right: 40px;
+}
+
+/*section 1 - plans*/
+
+.main-fullwidth {
+    width: 100vw;
+}
+
+#plans {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    display: flex;
+}
+
+.plan {
+    width: 31%;
+    height: auto;
+    border: 1px solid lightgray;
+}
+
+.plan-kind {
+    text-align: center;
+    padding: 10px;
+}
+
+.under-kind {
+    border: none;
+    height: 1px;
+    background-color: lightgray;
+}
+
+.titleprice {
+    margin: 30px 30px 40px 30px;
+    line-height: 35px;
+}
+
+.grey {
+    color: grey;
+}
+
+.description {
+    margin: 30px 30px 40px 30px;
+}
+
+.description-item {
+    display: flex;
+    margin: 20px 0;
+}
+
+.description-item > i {
+    margin-right: 10px;
+}
+
+.plan-trial {
+    margin: 30px 30px 40px 30px;
+}
+
+.plan-btn {
+    text-decoration: none;
+    background-color: #0161FF;
+    padding: 10px 15px;
+    color: #fff;
+}
+
+.oppure {
+    margin: 40px auto;
+}
+
+.short {
+    border: none;
+    height: 1px;
+    background-color: lightgray;
+    width: 25%;
+}
+
+.checklist {
+    margin: 50px 30px 40px 30px;
+}
+
+.fa-check {
+    color: #0161FF;
 }
