@@ -40,10 +40,10 @@
     
     <main>
 
-        <section class="main-margin"> <!--piano business che fa per te-->
+        <section class="main-margin"> <!--piano business che fa per te  <span><input checked type="radio" name="fatturazione">Fatturazione mensile</span> <span><input type="radio" name="fatturazione">Fatturazione annuale</span>-->
             <div id="section1">
                 <h1>Trova il piano business che fa per te</h1>
-                <form><input type="radio" id="mensile" value="mensile"> <span id="radio">Fatturazione mensile</span>  <input type="radio" id="annuale" value="annuale"> Fatturazione annuale</form>
+                <form><input type="radio" name="fatturazione" checked> <span id="radio">Fatturazione mensile</span>  <input type="radio" name="fatturazione"> Fatturazione annuale</form>
                 <div id="plans">
                     <div class="plan">
                         <!--icona e tipo-->
@@ -220,7 +220,28 @@
         </section>
 
         <section class="main-fullwidth"> <!--designit-->
-
+            <div id="designit-container">
+                <div class="designit-col">
+                    <div class="designit-small green"><img src="./img/designit.svg" alt="designit-logo"></div>
+                    <div class="designit-small brown"><img src="./img/arizona_state_university.svg" alt="arizona-state-university-logo"></div>
+                    <div class="designit-small turquoise"><img src="./img/university_of_florida.svg" alt="university-of-florida-logo"></div>
+                    <div class="designit-small orange"><img src="./img/topps.svg" alt="topps-logo"></div>
+                </div>
+                <div class="designit-col-center">
+                    <img src="./img/designit.svg" alt="designit-logo">
+                    <br>
+                    <hr id="designit-hr">
+                    <br>
+                    <p>"I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper."</p>
+                    <p>Morten Thomsen, Global IT Lead</p>
+                </div>
+                <div class="designit-col">
+                    <div class="designit-small red"><img src="./img/world_bicycle_relief.svg" alt="world-bicycle-relief-logo"></div>
+                    <div class="designit-small lightblue"><img src="./img/hearst_corp.svg" alt="hearst-corporation-logo"></div>
+                    <div class="designit-small purple"><img src="./img/lonely_planet.svg" alt="lonely-planet-logo"></div>
+                    <div class="designit-small yellow"><img src="./img/clear_channel.svg" alt="clear-channel-outdoor-logo"></div>
+                </div>
+            </div>
         </section>
 
         <section class="main-fullwidth"> <!--dropbox business-->

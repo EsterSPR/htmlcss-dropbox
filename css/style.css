@@ -252,7 +252,7 @@ img {
     color: #000;
 }
 
-/*section 2 - partners*/
+/*section 3 - business*/
 
 #business-container {
     width: 100%;
@@ -282,4 +282,80 @@ img {
 
 #business-title-container > h1 {
     margin: 150px auto 50px auto;
+}
+
+/*section 5 - designit*/
+
+#designit-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.designit-col {
+    width: calc(100%/3);
+    height: calc(100vw/3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.designit-col-center {
+    width: calc(100%/3);
+    height: calc(100vw/3);
+    background-color: #F5F5F5;
+    padding: 40px;
+}
+
+.designit-col-center > img {
+    margin-bottom: 30px;
+}
+
+.designit-col-center > p {
+    margin: 10px 0 40px 0;
+    font-size: 11pt;
+}
+
+.designit-small {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.designit-small > img {
+    filter: invert(1);
+}
+
+.green {
+    background-color: #A2D39B;
+    box-shadow: inset 10px 10px 0px #D1E9CE, inset -10px -10px #D1E9CE;
+}
+
+.brown {
+    background-color: #61082B;
+}
+
+.turquoise {
+    background-color: #0093CE;
+}
+
+.orange {
+    background-color: #FF1B1C;
+}
+
+.red {
+    background-color: #D6001F;
+}
+
+.lightblue {
+    background-color: #B4D0E7;
+}
+
+.purple {
+    background-color: #0C2481;
+}
+
+.yellow {
+    background-color: #FFD831;
 }
