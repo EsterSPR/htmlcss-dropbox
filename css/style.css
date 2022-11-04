@@ -7,6 +7,10 @@
     font-family: 'Lato', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 /*nav*/
 
 nav {
@@ -20,6 +24,11 @@ nav {
     display: flex;
 }
 
+#nav-content-left > a {
+    color: #000;
+    text-decoration: none;
+}
+
 #nav-content-right {
     width: 50vw;
     justify-content: right;
@@ -27,12 +36,21 @@ nav {
     display: flex;
 }
 
+#nav-content-right > a {
+    color: #000;
+    text-decoration: none;
+}
+
 .menu-item {
-    margin: 25px 15px;
+    padding: 25px 15px;
+}
+
+.hover-item:hover {
+    background-color: #F3EEE8;
 }
 
 .menu-item > img {
-    width: 130px;
+    width: 100px;
 }
 
 #nav-btn {
@@ -40,6 +58,10 @@ nav {
     background-color: #0161FF;
     padding: 5px 15px;
     color: #fff;
+}
+
+#nav-btn:hover {
+    background-color: #2F7BFF;
 }
 
 /*header*/
@@ -75,6 +97,10 @@ header > h1 {
     color: #fff;
 }
 
+#header-btn:hover {
+    background-color: #2F7BFF;
+}
+
 #header-p2 {
     margin-top: 35px;
     margin-bottom: 40px;
@@ -88,6 +114,10 @@ img[alt="header-img"] {
     width: 67%;
     position: absolute;
     right: 0;
+}
+
+a[href="#section1"] {
+    color: #000;
 }
 
 /*main*/
@@ -182,6 +212,14 @@ input {
     color: #fff;
 }
 
+.contattaci-btn {
+    padding: 10px 65px;
+}
+
+.plan-btn:hover {
+    background-color: #2F7BFF;
+}
+
 .oppure {
     margin: 40px auto;
 }
@@ -254,6 +292,17 @@ img {
     padding: 10px 15px;
     border: 1px solid #000;
     color: #000;
+}
+
+#partner-btn {
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #000;
+    color: #000;
+}
+
+#partner-btn:hover {
+    background-color: #F3EEE8;
 }
 
 /*section 3 - business*/
@@ -399,6 +448,10 @@ img {
     font-size: 11pt;
 }
 
+#business-banner-btn:hover {
+    background-color: #F3EEE8;
+}
+
 #faq-container > h2 {
     font-size: 22pt;
     margin-bottom: 50px;
@@ -455,6 +508,11 @@ ul {
     border: none;
     height: 1px;
     background-color: grey;
+}
+
+.footer-a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .footer-grey {
