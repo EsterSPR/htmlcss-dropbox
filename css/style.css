@@ -109,11 +109,15 @@ input {
     margin-right: 40px;
 }
 
-/*section 1 - plans*/
-
 .main-fullwidth {
     width: 100vw;
 }
+
+.main-fullwidth:first-child {
+    margin-bottom: 0;
+}
+
+/*section 1 - plans*/
 
 #plans {
     width: 100%;
@@ -358,4 +362,35 @@ img {
 
 .yellow {
     background-color: #FFD831;
+}
+
+/*section 6 - business*/
+
+#business-banner {
+    background-color: #B4D0E7;
+    display: flex;
+}
+
+.business-banner-col {
+    width: calc(100%/4);
+    padding: 80px 20px;
+}
+
+.business-banner-col > h2 {
+    color: #61082B;
+    font-size: 22pt;
+}
+
+.business-banner-right {
+    text-align: right;
+    padding-top: 100px;
+}
+
+#business-banner-btn {
+    text-decoration: none;
+    padding: 10px 40px;
+    border: none;
+    color: #000;
+    background-color: #fff;
+    font-size: 11pt;
 }
