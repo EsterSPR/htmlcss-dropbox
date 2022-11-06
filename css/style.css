@@ -452,12 +452,16 @@ img {
     background-color: #F3EEE8;
 }
 
-#faq-container > h2 {
+/* section 7 - FAQ non bonus*/
+
+#faq-container h2 {
     font-size: 22pt;
     margin-bottom: 50px;
 }
 
-#faq-container > hr {
+/* OBSOLETE
+
+#faq-container hr {
     border: none;
     height: 1px;
     background-color: grey;
@@ -468,6 +472,8 @@ img {
     justify-content: space-between;
     margin: 35px 35px 35px 0;
 }
+
+*/
 
 /*footer*/
 
@@ -523,4 +529,40 @@ ul {
 
 .footer-grey > p {
     margin: 0 10px;
+}
+
+/*FAQ accordion*/
+
+#faq-container input {
+    display: none;
+}
+
+label {
+    display: block;    
+    margin: 30px 0 20px 0;
+    transition: ease .5s;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-content {
+    padding: 10px 25px;
+    margin: 10px 0 10px 0;
+    text-align: justify;
+}
+
+input + label + .faq-content {
+    opacity: 0;
+	height: 0;
+	font-size: 0;
+	padding: 0 25px;
+	transition: ease .5s;
+}
+
+input:hover + label + .faq-content {
+    opacity: 1;
+	height: auto;
+	font-size: 11pt;
+	padding: 25px;
 }
